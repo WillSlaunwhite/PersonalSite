@@ -34,9 +34,9 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     TestComponent,
   ],
   imports: [
+    AppRoutingModule,
     NgbModule,
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     MdbAccordionModule,
     MdbCarouselModule,
