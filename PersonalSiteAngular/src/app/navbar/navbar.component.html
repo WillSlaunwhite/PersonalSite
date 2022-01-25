@@ -1,31 +1,35 @@
-<nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+<nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
   <div class="container-fluid">
     <!-- Navbar brand -->
-    <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
-      <strong>Will Slaunwhite</strong>
+    <a class="navbar-brand nav-link" href="#">
+      Will Slaunwhite
     </a>
-    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-      aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarExample01">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#">About Me</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#">Projects</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#">Contact</a>
-        </li>
-      </ul>
+    <!-- Navbar brand -->
 
-      <ul class="navbar-nav d-flex flex-row">
-        <!-- Icons -->
+    <!-- Nav Links -->
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="basicNav.toggle()"
+      aria-controls="navbarExample01"
+      aria-expanded="false"
+      aria-label="toggle navigation">
+    <em class="fas fa-bars"></em>
+    </button>
+
+    <div class="collapse navbar-collapse align-items-cent text-center"
+    id="basicNav"
+    mdbCollapse
+    #basicNav="mdbCollapse"
+    >
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Contact</a>
+
+
         <li class="nav-item me-3 me-lg-0">
           <a class="nav-link" href="https://www.linkedin.com/in/william-slaunwhite-550106190/" rel="nofollow"
             target="_blank">
@@ -39,5 +43,7 @@
         </li>
       </ul>
     </div>
+
+
   </div>
 </nav>
