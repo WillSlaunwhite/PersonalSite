@@ -1,6 +1,3 @@
-nav {
-  height: 60px;
-  background-color: #717D7E;
+.navbar .nav-link {
+  color: #fff !important;
 }
-
-

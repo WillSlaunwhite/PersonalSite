@@ -52,7 +52,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     MdbScrollspyModule,
     MdbTabsModule,
     MdbTooltipModule,
-    MdbValidationModule
+    MdbValidationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

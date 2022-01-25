@@ -1,0 +1,11 @@
+#intro {
+  background-image: url("https://bl3301files.storage.live.com/y4m09o86Jonodo56CSbwHcRpggJ7QfEY6YIS4jHgJxnWo214sjRmPqH-khbmo8EmFiKq6vdFn-lJTF2eY00ddjHh6oo_O8Se_3Ag7z3hC5kGO3VZAdlcZOIIrjhiPWRRPmbLkapczl386b94K8E6-jtJcfLDKtQWjQH0xkPtI5JeU9GycETSzxuQVTYr0J3OCaL?width=3648&height=2736&cropmode=none");
+  height: 100vh;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #intro {
+    margin-top: -58.59px;
+  }
+}
